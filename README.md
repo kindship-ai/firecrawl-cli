@@ -13,10 +13,20 @@ A command-line interface for FireCrawl - Convert websites to markdown with ease.
 
 ## Installation
 
+### Option 1: Install from GitHub
+
+```bash
+git clone https://github.com/kindship-ai/firecrawl-cli.git
+cd firecrawl-cli
+python setup.py install
+```
+
+### Option 2: Install for Development
+
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/firecrawl-cli.git
+git clone https://github.com/kindship-ai/firecrawl-cli.git
 cd firecrawl-cli
 ```
 
@@ -27,18 +37,10 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install the package:
-
-For development (changes to the code are immediately reflected):
+3. Install in development mode:
 
 ```bash
-pip install -e .
-```
-
-For production (creates a stable installation):
-
-```bash
-pip install .
+python setup.py develop
 ```
 
 ## Configuration
